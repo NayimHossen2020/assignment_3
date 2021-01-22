@@ -1,0 +1,10 @@
+function kilometerToMeter(km){
+    //input validation (this portion is for assignment's bonus work)
+    if(isNaN(km) || km < 0){
+        return "Invalid input, please try again ";
+    }
+
+    // 1 kilometer == 1000 meter
+    var meter = km * 1000;
+    return meter;
+}
